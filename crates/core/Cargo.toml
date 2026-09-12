@@ -1,0 +1,12 @@
+[package]
+name = "agent-runtime"
+version = "0.1.0"
+edition = "2024"
+description = "Learning an agent runtime in Rust, following AgentScope"
+repository = "https://github.com/leviathan-218/agent-runtime-rs"
+readme = "../../README.md"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = { version = "2.12", features = ["json"] }
